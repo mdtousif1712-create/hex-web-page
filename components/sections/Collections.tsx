@@ -57,14 +57,14 @@ export function Collections() {
           </motion.div>
         </div>
 
-        <div ref={ref} className="grid grid-cols-1 md:grid-cols-3 gap-4 h-[70vh] min-h-[500px]">
+        <div ref={ref} className="grid grid-cols-1 md:grid-cols-3 gap-4 h-auto md:h-[70vh] min-h-[500px]">
           {collections.map((item, i) => (
             <motion.div
               key={item.id}
               initial={{ opacity: 0, y: 100 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
               transition={{ duration: 1, delay: i * 0.15, ease: [0.16, 1, 0.3, 1] as any }}
-              className="relative group cursor-pointer overflow-hidden rounded-sm"
+              className="relative group cursor-pointer overflow-hidden rounded-sm h-[400px] md:h-auto"
             >
               {/* Background Image with slight scale up on hover */}
               <div className="absolute inset-0 w-full h-full transition-transform duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-110">

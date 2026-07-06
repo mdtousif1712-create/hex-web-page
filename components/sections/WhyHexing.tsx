@@ -43,9 +43,9 @@ const item = {
 
 export function WhyHexing() {
   return (
-    <section className="py-32 bg-secondary text-secondary-foreground border-y border-white/5">
-      <div className="w-full px-8">
-        <div className="text-center mb-24">
+    <section className="py-16 md:py-32 bg-secondary text-secondary-foreground border-y border-white/5">
+      <div className="w-full px-4 md:px-8">
+        <div className="text-center mb-16 md:mb-24">
           <h2 className="text-sm font-semibold tracking-[0.3em] uppercase text-white/50 mb-4">
             Why HEXING
           </h2>

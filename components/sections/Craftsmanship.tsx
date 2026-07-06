@@ -42,10 +42,10 @@ export function Craftsmanship() {
       </div>
 
       {/* Scrolling Right - Images & Stages */}
-      <div className="w-full md:w-1/2 pb-32 md:pb-0">
+      <div className="w-full md:w-1/2 pb-16 md:pb-0">
         {stages.map((stage, i) => {
           return (
-            <div key={i} className="h-screen flex flex-col justify-center px-4 md:px-8 py-12">
+            <div key={i} className="min-h-[60vh] md:h-screen flex flex-col justify-center px-4 md:px-8 py-12 md:py-12">
               <div className="relative w-full aspect-[4/5] overflow-hidden rounded-sm mb-8">
                 <Image
                   src={stage.image}

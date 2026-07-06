@@ -25,8 +25,8 @@ export function Gallery() {
   const yParallaxSlow = useTransform(scrollYProgress, [0, 1], [-50, 50]);
 
   return (
-    <section id="gallery" ref={containerRef} className="py-24 bg-[#0A0A0E] text-white overflow-hidden">
-      <div className="w-full px-4 md:px-8 flex flex-col gap-24 md:gap-40">
+    <section id="gallery" ref={containerRef} className="py-16 md:py-24 bg-[#0A0A0E] text-white overflow-hidden">
+      <div className="w-full px-4 md:px-8 flex flex-col gap-16 md:gap-40">
         
         {/* Block 1: TRENDS / FUNKERS */}
         <div className="flex flex-col md:flex-row items-center md:items-stretch gap-8 relative">

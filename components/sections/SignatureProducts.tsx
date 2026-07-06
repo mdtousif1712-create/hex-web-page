@@ -83,9 +83,9 @@ const ProductRow = ({ product, index }: { product: typeof products[0]; index: nu
 
 export function SignatureProducts() {
   return (
-    <section id="products" className="py-32 overflow-hidden bg-background">
+    <section id="products" className="py-16 md:py-32 overflow-hidden bg-background">
       <div className="w-full px-4 md:px-8">
-        <div className="mb-32 text-center">
+        <div className="mb-16 md:mb-32 text-center">
           <h2 className="text-5xl md:text-7xl font-bold tracking-tighter uppercase mb-6">
             Signature <br /> Series
           </h2>

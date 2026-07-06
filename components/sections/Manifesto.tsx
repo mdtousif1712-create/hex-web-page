@@ -18,7 +18,7 @@ export function Manifesto() {
     <section 
       id="manifesto" 
       ref={containerRef}
-      className="relative min-h-[80vh] flex items-center justify-center py-32 px-4 md:px-8 overflow-hidden bg-background"
+      className="relative min-h-[80vh] flex items-center justify-center py-16 md:py-32 px-4 md:px-8 overflow-hidden bg-background"
     >
       <motion.div 
         style={{ y: y1, opacity }}

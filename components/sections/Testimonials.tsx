@@ -26,9 +26,9 @@ export function Testimonials() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section className="py-32 bg-secondary text-secondary-foreground border-b border-white/5">
+    <section className="py-16 md:py-32 bg-secondary text-secondary-foreground border-b border-white/5">
       <div className="w-full px-8">
-        <div className="text-center mb-24">
+        <div className="text-center mb-16 md:mb-24">
           <h2 className="text-sm font-semibold tracking-[0.3em] uppercase text-white/50 mb-4">
             Words From Our Patrons
           </h2>
